@@ -4,7 +4,7 @@ def bubblesort(arr):
             if arr[i] > arr[i+1]:
                 arr[i],arr[i+1] =arr[i+1],arr[i]
 
-    return arr
+    
 arr = [12,13,51,26,11,14]
-print(bubblesort(arr))
-
+bubblesort(arr)
+print(arr)
