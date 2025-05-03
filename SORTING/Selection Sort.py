@@ -6,7 +6,6 @@ def selectionsort(arr):
       if arr[item] < arr[min_x]:
         min_x = item
 
-    arr[min_x],arr[item] = arr[item],arr[min_x]
 
 arr = [12,45,13,2,6,1]
 selectionsort(arr)
